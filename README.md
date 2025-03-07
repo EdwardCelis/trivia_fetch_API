@@ -5,6 +5,7 @@
 Trivia Fetch API es una herramienta de línea de comandos que permite obtener datos curiosos sobre cualquier número, conectándose a la API de NumbersAPI. Además, traduce automáticamente la información al español para una mejor experiencia.
 
 🛠️ Características
+
 ✔️ Entrada del usuario: Permite ingresar cualquier número.
 ✔️ Conexión con API: Obtiene información en tiempo real.
 ✔️ Procesamiento de JSON: Extrae y organiza los datos.
@@ -12,6 +13,7 @@ Trivia Fetch API es una herramienta de línea de comandos que permite obtener da
 ✔️ Interfaz simple: Uso intuitivo desde la terminal.
 
 📂 Estructura del proyecto
+
 trivia_fetch_API/
 │── trivia.py        # Función para obtener y traducir la trivia
 │── main.py          # Interfaz de usuario en línea de comandos
