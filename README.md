@@ -1,22 +1,40 @@
-# Instructions
-Now is your opportunity to build a quiz! Your quiz can work however you wish to.
 
-Firstly, we're going to separate out of our *interactive* logic into the `main()` function, like so:
+📌 Trivia Fetch API
 
-```
-def main():
-  print("Hello learners!")
+🚀 Descripción
+Trivia Fetch API es una herramienta de línea de comandos que permite obtener datos curiosos sobre cualquier número, conectándose a la API de NumbersAPI. Además, traduce automáticamente la información al español para una mejor experiencia.
 
-if __name__=="__main__":
-  main()
-```
+🛠️ Características
+✔️ Entrada del usuario: Permite ingresar cualquier número.
+✔️ Conexión con API: Obtiene información en tiempo real.
+✔️ Procesamiento de JSON: Extrae y organiza los datos.
+✔️ Salida en español: Traduce la trivia automáticamente.
+✔️ Interfaz simple: Uso intuitivo desde la terminal.
 
-This is Python *boilerplate* code, which will only run when the program is invoked by a person. All your code should now be inside a function - either this `main()` function (where you can put things like input statements) or another function.
+📂 Estructura del proyecto
+trivia_fetch_API/
+│── trivia.py        # Función para obtener y traducir la trivia
+│── main.py          # Interfaz de usuario en línea de comandos
+│── test.py          # Pruebas automáticas con pytest
+│── README.md        # Documentación del proyecto
 
-Automatic grading will be based on the functionality of the following function (which must be incorporated into your program):
+▶️ Uso
 
-* `trivia_fetch(num)` - this function must exist in your program, it should take one number as input, and it should output a dictionary of trivia about that number.
+1️⃣ Ejecuta main.py:
+python3 main.py
 
-**Remember** This project will be automatically graded, and computers are very literal!
+2️⃣ Ingresa un número cuando se te solicite.
 
-**Note:** Use the tests! There's nothing wrong with running the tests until they pass. It's not cheating!
+3️⃣ Recibe un dato curioso sobre ese número en español.
+
+🧪 Pruebas
+Para validar el correcto funcionamiento, ejecuta:
+python3 -m pytest test.py
+
+📌 Requisitos
+
+Python 3
+
+requests y deep-translator (instalar con pip install -r requirements.txt)
+
+📢 ¡Disfruta explorando curiosidades numéricas con Trivia Fetch API! 🚀
